@@ -1,0 +1,33 @@
+.contact {
+  background: url(./../Images/275964692_4991590320921466_5936399599071432699_n.png);
+  height: 150vh;
+}
+.contact-content {
+  text-align: center;
+}
+.contact-content .map p {
+  font-weight: 500;
+  font-size: 25px;
+  padding: 20px;
+}
+.contact-content .map iframe {
+  width: 80%;
+}
+.contact-content a {
+  font-size: 24px;
+  display: block;
+  padding: 40px;
+  font-weight: 400;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social a i{
+   font-size: 40px;
+   transition: scale .3s;
+}
+.social a:hover{
+    scale: 1.1;
+}

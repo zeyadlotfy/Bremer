@@ -1,0 +1,26 @@
+.about {
+  background: url(./../Images/275964692_4991590320921466_5936399599071432699_n.png);
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.about-content {
+  text-align: center;
+}
+video {
+  width: 100%;
+  height: 100%;
+}
+.about h1 {
+  padding-top: 20px;
+  
+}
+.about-content img{
+    width: 100%;
+}
+.about p {
+  font-weight: 400;
+  font-size: 25px;
+  padding-bottom: 30px;
+}

@@ -1,0 +1,122 @@
+.order {
+  background: url(./../Images/275964692_4991590320921466_5936399599071432699_n.png);
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.order-content {
+  display: flex;
+  padding-top: 80px;
+  gap: 5px;
+}
+aside {
+  background-color: rgb(17, 17, 18);
+  width: 180px;
+  height: 80vh;
+  overflow: hidden;
+  border-radius: 8px;
+}
+aside ul {
+  list-style: none;
+  position: relative;
+  height: 95%;
+  width: 100%;
+}
+aside ul li {
+  margin: 20px 0;
+  width: 100%;
+}
+aside ul li a {
+  width: 100%;
+  transition: 0.3s;
+  font-size: 14px;
+}
+aside ul li a:hover {
+  color: #ddd1d1;
+}
+aside ul li a.active {
+  color: lightcyan;
+  font-size: 17px;
+}
+@media (min-width: 768px) {
+  aside {
+    width: 280px;
+    padding: 20px;
+  }
+  aside ul li a {
+    font-size: 28px;
+  }
+  aside ul li a.active {
+    font-size: 31px;
+  }
+  .order-content {
+  gap: 10px;
+  }
+
+}
+.menu-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 40px;
+  padding-bottom: 50px;
+}
+.menu-group .box {
+  max-width: 90%;
+  text-align: center;
+  overflow: hidden;
+  transition: scale 0.3s;
+}
+.menu-group .box:hover {
+  scale: 1.1;
+}
+.menu-group .box img {
+  width: 85%;
+  max-width: 90%;
+  border-radius: 8px;
+}
+.menu-group .box p {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.box button {
+  width: 96px;
+  height: 45px;
+  border-radius: 8px;
+  font-size: 20px;
+  color: white;
+  background-color: #111110;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  overflow: hidden;
+}
+.box button:hover {
+  background-color: #3e3e3e;
+}
+.box .price {
+  color: rgb(19, 177, 19);
+}
+.complete-order{
+  text-align: center;
+  padding: 100px;
+}
+.complete-order button{
+   padding: 5px;
+   width: 150px;
+   height: 50px;
+   font-weight: 500;
+   font-size: 18px;
+   border-radius: 8px;
+   transition: .3s;
+   background-color: rgb(11, 104, 11);
+   border: none;
+   outline: none;
+   color: white;
+   cursor: pointer;
+}
+.complete-order button:hover{
+  scale: 1.1;
+}

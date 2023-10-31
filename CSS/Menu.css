@@ -1,0 +1,30 @@
+menu {
+  background: url(./../Images/275964692_4991590320921466_5936399599071432699_n.png);
+}
+.menu-content .menu-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+  gap: 40px;
+  padding-bottom:50px ;
+}
+.menu-content .menu-group .box {
+  text-align: center;
+  overflow: hidden;
+  transition: scale 0.3s;
+}
+.menu-content .menu-group .box:hover {
+  scale: 1.08;
+}
+.menu-content .menu-group .box img {
+  width: 90%;
+  max-width: 90%;
+  border-radius: 6px;
+}
+.menu-content .menu-group .box p {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 22px;
+}
+.menu-content .menu-group .box p:hover {
+  color: #f6e5e5;
+}
